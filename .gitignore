@@ -1,40 +1,95 @@
 # Compiled object files
 *.o
 *.obj
+*.lo
+*.slo
 
-# Compiled dynamic libraries
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
 *.so
 *.dylib
 *.dll
 
-# Compiled static libraries
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
 *.a
 *.lib
 
 # Executables
 *.exe
 *.out
+*.app
 
 # Build directories
 build/
 Debug/
 Release/
+x64/
+x86/
+
+# CMake build directory
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
 
 # IDE-specific files
 .vscode/
 .idea/
 *.suo
 *.user
+*.userosscache
 *.sln.docstates
+*.vcxproj*
+
+# Xcode
+*.xcodeproj/
+*.xcworkspace/
 
 # OS-specific files
 .DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
 Thumbs.db
 
 # Temporary files
 *.tmp
 *.temp
 *~
+*.swp
+*.bak
+
+# Debug symbol files
+*.dSYM/
+*.dSYM/**
 
 # Dependency directories
 vendor/
+external/
+
+# Logs and databases
+*.log
+*.sql
+*.sqlite
+
+# Code coverage
+*.gcno
+*.gcda
+*.gcov
+
+# Doxygen generated documentation
+doc/
+
+# Specific to your project (you might want to customize these)
+containers/
